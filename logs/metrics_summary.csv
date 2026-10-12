@@ -1,0 +1,7 @@
+condition,trainable_params,total_params,learning_rate,best_epoch,total_epochs_run,duration_seconds,val_accuracy,best_val_loss,test_accuracy,test_macro_f1
+B1: Scratch,11181642,11181642,Group 0: 1.0e-03,7,11,70.09,38.46,1.7811,35.12,0.3205
+B2: Feature_Ext,5130,11181642,Group 0: 1.0e-03,13,17,93.77,92.64,0.1933,93.98,0.9395
+B3: Fine_Tuning,8398858,11181642,"Group 0: 1.0e-04, Group 1: 1.0e-03",3,7,38.76,94.65,0.1616,93.31,0.9336
+B4: No_Augment,8398858,11181642,"Group 0: 1.0e-04, Group 1: 1.0e-03",5,9,30.1,94.98,0.1775,95.32,0.9531
+B4: With_Augment,8398858,11181642,"Group 0: 1.0e-04, Group 1: 1.0e-03",3,7,37.78,94.65,0.1616,93.31,0.9336
+B5: EfficientNet,1142202,4020358,"Group 0: 1.0e-04, Group 1: 1.0e-03",15,19,102.9,94.31,0.1632,94.98,0.9498

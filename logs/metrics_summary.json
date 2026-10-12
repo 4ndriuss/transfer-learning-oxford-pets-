@@ -1,0 +1,80 @@
+[
+    {
+        "condition": "B1: Scratch",
+        "trainable_params": 11181642,
+        "total_params": 11181642,
+        "learning_rate": "Group 0: 1.0e-03",
+        "best_epoch": 7,
+        "total_epochs_run": 11,
+        "duration_seconds": 70.09,
+        "val_accuracy": 38.46,
+        "best_val_loss": 1.7811,
+        "test_accuracy": 35.12,
+        "test_macro_f1": 0.3205
+    },
+    {
+        "condition": "B2: Feature_Ext",
+        "trainable_params": 5130,
+        "total_params": 11181642,
+        "learning_rate": "Group 0: 1.0e-03",
+        "best_epoch": 13,
+        "total_epochs_run": 17,
+        "duration_seconds": 93.77,
+        "val_accuracy": 92.64,
+        "best_val_loss": 0.1933,
+        "test_accuracy": 93.98,
+        "test_macro_f1": 0.9395
+    },
+    {
+        "condition": "B3: Fine_Tuning",
+        "trainable_params": 8398858,
+        "total_params": 11181642,
+        "learning_rate": "Group 0: 1.0e-04, Group 1: 1.0e-03",
+        "best_epoch": 3,
+        "total_epochs_run": 7,
+        "duration_seconds": 38.76,
+        "val_accuracy": 94.65,
+        "best_val_loss": 0.1616,
+        "test_accuracy": 93.31,
+        "test_macro_f1": 0.9336
+    },
+    {
+        "condition": "B4: No_Augment",
+        "trainable_params": 8398858,
+        "total_params": 11181642,
+        "learning_rate": "Group 0: 1.0e-04, Group 1: 1.0e-03",
+        "best_epoch": 5,
+        "total_epochs_run": 9,
+        "duration_seconds": 30.1,
+        "val_accuracy": 94.98,
+        "best_val_loss": 0.1775,
+        "test_accuracy": 95.32,
+        "test_macro_f1": 0.9531
+    },
+    {
+        "condition": "B4: With_Augment",
+        "trainable_params": 8398858,
+        "total_params": 11181642,
+        "learning_rate": "Group 0: 1.0e-04, Group 1: 1.0e-03",
+        "best_epoch": 3,
+        "total_epochs_run": 7,
+        "duration_seconds": 37.78,
+        "val_accuracy": 94.65,
+        "best_val_loss": 0.1616,
+        "test_accuracy": 93.31,
+        "test_macro_f1": 0.9336
+    },
+    {
+        "condition": "B5: EfficientNet",
+        "trainable_params": 1142202,
+        "total_params": 4020358,
+        "learning_rate": "Group 0: 1.0e-04, Group 1: 1.0e-03",
+        "best_epoch": 15,
+        "total_epochs_run": 19,
+        "duration_seconds": 102.9,
+        "val_accuracy": 94.31,
+        "best_val_loss": 0.1632,
+        "test_accuracy": 94.98,
+        "test_macro_f1": 0.9498
+    }
+]
