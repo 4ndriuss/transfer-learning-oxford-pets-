@@ -4,13 +4,6 @@ This repository contains the empirical implementation and experimental analysis 
 
 ---
 
-## 👤 Author Information
-* **Name** : Richtjhie Hartawan Agusta
-* **Student ID (NIM)** : 2802529102
-* **Course** : Deep Learning (Session 05: Advanced CNNs & Transfer Learning)
-
----
-
 ## 📌 Project Overview
 This study empirically investigates five distinct training configurations across modern Convolutional Neural Network (CNN) architectures:
 1. **B1: Baseline from Scratch** — ResNet-18 initialized with random weights (`weights=None`), serving as the lower-bound baseline.
